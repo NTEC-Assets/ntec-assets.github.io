@@ -1,0 +1,62 @@
+<head>
+	<title>Post Processing Effects</title>
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	<link rel = "icon" type = "image/png" href = "images/icon.png">
+	<meta name = "viewport" content = "width = device-height, initial-scale = 0.5">
+</head>
+<body>
+	<div class = "header">
+		<a href = "index.html"><img src = "images/top.png" class = "banner"></a>
+		<hr>
+		<a href = "http://u3d.as/1xKq" class = "ta">Asset Store</a>
+		<a href = "index.html" class = "ta">How to start</a>
+		<a href = "https://forum.unity.com/threads/post-processing-effects.748391/" class = "ta">Forum</a>
+		<a href = "samples.html" class = "ta">Effects</a>
+	</div>
+	<div class = "navigation">
+		<ol>
+			<li><a href = "#n1" class = "na">Installation</a></li>
+			<li><a href = "#n2" class = "na">Picker</a></li>
+			<li><a href = "#n3" class = "na">Blender</a></li>
+		</ol>
+	</div>
+	<div class = "content">
+		<a name = "n1"><h1>Installation</h1></a>
+		<hr>
+		<h3>For Unity 2018+</h3>
+		<p>- Import PPSv2 using Package Manager - Window - > Package Manager -> All -> Post-processing -> Install</p>
+		<p>- Download and import Post Processing Effects</p>
+		<h3>For Unity 2017</h3>
+		<p>- Download and import <a href = "https://github.com/Unity-Technologies/PostProcessing" class = "ca">Post Processing Stack v2</a></p>
+		<p>- Download and import Post Processing Effects</p>
+		<br>
+		<i>If there are 'StdLib' errors after importing both PPU and PPS - You may need to manually convert the shaders using Window -> Post Processing Effects -> Convert Shaders and then refresh the assets.</i>
+		<br>
+		<img src = "images/volume.png" class = "wide">
+		<p>Congratulations! You can now add NTEC effects to Post Processing Profiles!</p>
+		<a name = "n2"><h1>Picker</h1></a>
+		<hr>
+		<p>- Add Post Processing Volume to a camera.</p>
+		<p>- Add Unity Color Grading effect to the Volume profile.</p>
+		<p>- Set effect Mode to Low Definition Range.</p>
+		<p>- Open picker (Window/Post Processing Effects/LUT Picker), select camera and find the most suitable LUT texture.</p>
+		<img src = "images/Picker/1.png" class = "wide">
+		<a name = "n3"><h1>Blender</h1></a>
+		<hr>
+		<p>- Add Post Processing Volume to a camera.</p>
+		<p>- Add Unity Color Grading effect to the Volume profile.</p>
+		<p>- Set effect Mode to Low Definition Range.</p>
+		<p>- Open blender (Window/Post Processing Effects/LUT Blender), select camera.</p>
+		<img src = "images/Blender/1.png" class = "wide">
+		<p>- Select LUT textures and blend them.</p>
+		<p>- Save new texture, You can save it inside PPU_LUTs folder, so You texture will be avaiable in LUT Picker.</p>
+		<img src = "images/Picker/1.png" class = "wide">
+	</div>
+	<div class = "footer">
+		<a href = "https://assetstore.unity.com/publishers/25212"><img src = "images/bottom.png" class = "footerbanner"></a>
+		<hr>
+		<a href = "mailto:assetstore.ntec@gmail.com" class = "fa">Support: assetstore.ntec@gmail.com</a>
+		<br>
+		<a href = "https://twitter.com/DawidMoza" class = "fa">&copy; Dawid Moza</a>
+	</div>
+</body>
