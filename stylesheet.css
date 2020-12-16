@@ -1,0 +1,60 @@
+html {
+	height: 100%;
+}
+
+a:link {
+	text-decoration: none;
+	color: #777;
+}
+
+a:visited {
+    color: #777;
+}
+
+a:hover {
+    color: #aaa;
+}
+
+a:active {
+    color: #777;
+}
+
+body {
+	margin: 0;
+	background-color: #121212;
+	height: 100%;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	margin: 0;
+	padding: 0:
+}
+
+span {
+	margin: 0;
+	padding: 0:
+}
+
+.down {
+	filter: drop-shadow(0px 0px 2px black);
+}
+
+.title {
+	color: #dddddd;
+	font-size: 200%;
+}
+
+.mid {
+	padding: 32px;
+	margin: auto;
+}
+
+.text {
+	color: #dddddd;
+	font-weight: bold;
+}
