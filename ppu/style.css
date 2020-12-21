@@ -60,15 +60,16 @@ body {
 	position: sticky;
 	top: 1%; 
 	width: 225px;
-	background: radial-gradient(#333 0%, black 196%);
+	background: #191919;
 	filter: drop-shadow(0px 0px 2px black);
 	float: left;
 	overflow: hidden;
+	color: #555;
 }
 
 .content {
 	margin: 1%;
-	background: radial-gradient(#333 0%, black 196%);
+	background: #191919;
 	filter: drop-shadow(0px 0px 2px black);
 	overflow: hidden;
 	padding: 1%;
@@ -265,6 +266,10 @@ body {
 	border-color: rgba(255, 0, 0, 0.35);
 	border-style: solid;
 	border-width: 3px;
+}
+
+.support {
+	color: #ddd;
 }
 
 p {
